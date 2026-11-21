@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Rich Pastures Church International</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="blog.html">News and Articles</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="pages/application.html">Application</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Rich Pastures Church International</h1>
+
+
+        <section>
+
+            <h2>Location Info</h2>
+
+            <address>
+
+                Rich Pastures Church International<br>
+                56 Sunbreaker, opposite Ministry of Work Ondo, Ondo State<br>
+                300001
+
+            </address>
+
+            <p>Telephone: 09-344-5678</p>
+            <p>Email: <a href="mailto:hello@RPCI.com">hello@RPCI.com</a></p>
+        </section>
+
+        <section>
+            <h2>Inquiry Form</h2>
+            <form method="post">
+                <fieldset>
+                    <legend>Your Contact Information</legend>
+
+                    <p>
+                        <label for="full-name">Full Name:</label>
+                        <input type="text" id="full-name" name="full-name" required>
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </p>
+                    <p>
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone">
+                    </p>
+
+                </fieldset>
+
+                <fieldset>
+                    <legend>Inquiry Type</legend>
+                                        <p>
+                        <label for="department">Department:</label>
+                        <select id="department" name="department">
+                            <option value="">Select a department</option>
+                            <option value="general">General Inquiries</option>
+                            <option value="pastoral">Pastoral Care</option>
+                            <option value="worship">Worship and Services</option>
+                            <option value="community">Community Outreach</option>
+                        </select>
+                    </p>
+                    <p>
+                        <input type="radio" id="inquiry-general" name="inquiry-type" value="general">
+                        <label for="inquiry-general">General Question</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="inquiry-prayer" name="inquiry-type" value="prayer">
+                        <label for="inquiry-prayer">Prayer Request</label>
+                    </p>
+                    <p>
+                        <input type="radio" id="inquiry-visit" name="inquiry-type" value="visit">
+                        <label for="inquiry-visit">Plan a Visit</label>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="6" cols="40"></textarea>
+                </p>
+                <button type="submit">Submit Inquiry</button>
+            </form>
+        </section>
+    </main>
+
+
+</body>
+</html>
